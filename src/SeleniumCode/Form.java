@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Form {
-    public static void main(String args[]) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
         String url="https://ganninvestments.com/register/?gclid=EAIaIQobChMI3MX9ssLM9wIVXpJmAh2GfAc5EAAYASAAEgLX__D_BwE";
         System.setProperty("webdriver.chrome.driver", "D:\\Automation Eclipse\\SeleniumWithJava\\Driver\\chromedriver.exe");
         WebDriver driver =new ChromeDriver();
